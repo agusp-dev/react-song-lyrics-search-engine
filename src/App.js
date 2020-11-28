@@ -1,8 +1,12 @@
+import React, { Fragment } from 'react'
+import { Form } from './components'
 
 function App() {
   return (
-    <h1>React Song Lyrics Search  Engine</h1>
-  );
+    <Fragment>
+      <Form />
+    </Fragment>
+  )
 }
 
 export default App;
